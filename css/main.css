@@ -125,22 +125,24 @@ html {
 }
 
 .slider {
-    width: 420px;
+    max-width: 420px;
     max-height: 100vh;
     margin: 30px auto;
     position: relative;
 }
 
 .slider-line {
+    display: flex;
+    justify-content: center;
     height: 400px;
-    width: 420px;
+    max-width: 420px;
     overflow: hidden;
     position: relative;
 }
 
 .slider-line img {
     height: 400px;
-    width: 420px;
+    max-width: 420px;
     position: absolute;
     opacity: 1;
     transition: all ease 1s;
